@@ -1,0 +1,221 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.head {
+    /* position: fixed; */
+    margin-top: 12px;
+    /* top: 0;
+    left: 0;
+    right: 0;
+    background-color: #eb0000;
+    z-index: 2; */
+    /* margin-bottom: 55px; */
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1720px;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+    z-index: 3;
+    position: fixed;
+    padding-top: 20px;
+}
+
+.nav-holder {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.lang {
+    max-width: 41px;
+    height: 23px;
+}
+
+.engphoto {
+    width: 100%;
+    height: 100%;
+}
+
+.nav-list ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 42px;
+    list-style: none;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo-holder {
+    max-width: 243px;
+    height: 55.28px;
+    /* background-color: #85eb00; */
+}
+
+.container-main {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1720px;
+    margin: 0 auto;
+}
+
+.sidebar {
+    width: 1310px;
+    height: auto;
+    position: fixed;
+    background-color: transparent;
+    top: 0;
+    left: 0 auto;
+    margin: 0 auto;
+    padding-top: 55px;
+}
+
+.introductionn,
+.corec,
+.reactf,
+.handl {
+    width: 1720px;
+    position: relative;
+    height: 142.29px;
+    border-bottom: 1px solid #BFBFBF;
+}
+
+.in,
+.co,
+.re,
+.ha {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.in::before{
+    content: '1';
+    font-size: 21px;
+    padding-right: 5px;
+    font-weight: 400;
+}
+
+.co::before{
+    content: '2';
+    font-size: 21px;
+    padding-right: 5px;
+    font-weight: 400;
+}
+
+.re::before{
+    content: '3';
+    font-size: 21px;
+    padding-right: 5px;
+    font-weight: 400;
+}
+
+.ha::before {
+    content: '4';
+    font-size: 21px;
+    padding-right: 5px;
+    font-weight: 400;
+}
+
+.text-holder {
+    position: absolute;
+    z-index: 2;
+    background-color: transparent;
+    width: 60%;
+    margin-left: 40%;
+    padding-right: 10px;
+    margin-top: 150px;
+}
+
+.gear-holder {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.gear {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.intro,
+.core,
+.react,
+.hand {
+    margin-bottom: 70px;
+}
+
+.introduction,
+.core-comp,
+.react-fund,
+.react-fund-desc1,
+.react-fund-desc2,
+.react-fund-desc3,
+.react-fund-desc4,
+.react-fund-desc5,
+.react-fund-desc6,
+.handling,
+.handling-desc1,
+.handling-desc2 {
+    padding-bottom: 48px;
+}
+
+.introduction,
+.core-comp,
+.react-fund,
+.handling {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.intro-desc,
+.core-comp-desc,
+.react-fund-desc1,
+.react-fund-desc2,
+.react-fund-desc3,
+.react-fund-desc4,
+.react-fund-desc5,
+.react-fund-desc6,
+.handling-desc1,
+.handling-desc2 {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.ung {
+    text-decoration: underline;
+}
+
+.b9 {
+    font-weight: 900;
+}
+
+.bgg {
+    background-color: #EDEDED;
+}
